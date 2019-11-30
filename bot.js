@@ -22,6 +22,11 @@ channel.edit({ name: "Количество челов:"+ guild.members.size})
   }
 });
   
+bot.on('message', msg => {
+
+
+
+
   if (msg.content.startsWith(prefix + 'joke')){
       let embed = new Discord.RichEmbed()
     .setTitle('Нажми ка на квадратик снизу:)')
@@ -41,7 +46,7 @@ channel.edit({ name: "Количество челов:"+ guild.members.size})
     }
  
   
-  
+  });
 });
 //Ниже не трогать!
 bot.login(process.env.BOT_TOKEN);
