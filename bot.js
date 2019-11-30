@@ -39,7 +39,7 @@ channel.edit({ name: "Количество челов:"+ guild.members.size})
     .setColor('0x2c69d3')
       msg.channel.send({embed})
     }
-}); 
+ 
   
   
 });
