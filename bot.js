@@ -22,7 +22,7 @@ channel.edit({ name: "Количество челов:"+ guild.members.size})
   }
 });
   
-  if (msg.content.startsWith(prefix + 'prank')){
+  if (msg.content.startsWith(prefix + 'joke')){
       let embed = new Discord.RichEmbed()
     .setTitle('Нажми ка на квадратик снизу:)')
     .setDescription('Давай-давай')
