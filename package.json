@@ -2,7 +2,7 @@
 {
    "name": "MC MAX",
   "description": "BACKDOOR",
-  "version": "11.1.0",
+  "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js" 
