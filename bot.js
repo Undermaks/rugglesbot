@@ -17,8 +17,8 @@ bot.on('ready', () => {
 
   bot.on('ready', ()  => {
 let channel = bot.channels.get("650447242381099018")
-if(bot.guild.memberCount >  0){
-channel.edit({ name: "На сервере: "+ bot.guild.memberCount +"челов"})
+if(bot.g >  0){
+channel.edit({ name: "На сервере: "+ bot.guild.members +"челов"})
   }
 });
   
