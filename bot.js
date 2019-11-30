@@ -10,7 +10,7 @@ bot.on('ready', () => {
     bot.user.setStatus('available') // Can be 'available', 'idle', 'dnd', or 'invisible'
     bot.user.setPresence({
         game: {
-            name: ('vk.com/undermaks | *help'),
+            name: ("https://www.twitch.tv/rugglesov | *help"),
             type: 3
         }
     });
