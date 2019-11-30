@@ -19,9 +19,8 @@ bot.on('ready', () => {
 let channel = bot.channels.get("650447242381099018")
 let myGuild = client.guilds.get("593425257096937473")
 let memberCount = myGuild.memberCount;
-if(bot.users.size >  0){
 channel.edit({ name: "Количество челов:"+ memberCount})
-  }
+.catch(error => console.log(error));
 });
 
 bot.on('message', msg => {
