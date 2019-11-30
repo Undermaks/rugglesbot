@@ -22,7 +22,15 @@ channel.edit({ name: "Количество челов:"+ guild.members.size})
   }
 });
   
-  
+  if (msg.content.startsWith(prefix + 'prank')){
+      let embed = new Discord.RichEmbed()
+    .setTitle('Нажми ка на квадратик снизу:)')
+    .setDescription('Давай-давай')
+    .setFooter("Если рядом есть родственники воздрежитесь")
+    .setColor('0x2c69d3')
+      msg.channel.send({embed})
+      msg.channel.send("https://cdn.discordapp.com/attachments/500384384898301964/555749049081397293/Editor_1.mp4")
+    }
   
  if (msg.content.startsWith(prefix + 'ping')){
       let embed = new Discord.RichEmbed()
