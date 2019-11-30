@@ -7,6 +7,8 @@ bot.on('ready', () => {
 });
 
 bot.on('ready', () => {
-
+  
+  
+});
 //Ниже не трогать!
 bot.login(process.env.BOT_TOKEN);
