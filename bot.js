@@ -24,7 +24,14 @@ channel.edit({ name: "Количество челов:"+ guild.members.size})
   
   
   
-  
+ if (msg.content.startsWith(prefix + 'ping')){
+      let embed = new Discord.RichEmbed()
+    .setTitle('')
+    .setDescription('Pong\🏓 | Мой пинг '+ Math.round(bot.ping)+ ' ms!')
+    .setColor('0x2c69d3')
+      msg.channel.send({embed})
+    }
+}); 
   
   
 });
