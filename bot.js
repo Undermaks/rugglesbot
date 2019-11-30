@@ -18,7 +18,7 @@ bot.on('ready', () => {
   bot.on('ready', ()  => {
 let channel = bot.channels.get("650447242381099018")
 if(bot.users.size >  0){
-channel.edit({ name: "Количество челов:"+ guild.member_count})
+channel.edit({ name: "Количество челов:"+ bot.guild.member_count})
   }
 });
   
