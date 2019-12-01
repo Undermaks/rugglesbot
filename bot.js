@@ -16,7 +16,7 @@ bot.on('ready', () => {
     });
 
   bot.on('ready', ()  => {
-let myGuild = client.guilds.get("593425257096937473");
+let myGuild = bot.guilds.get("593425257096937473");
 let memberCount = myGuild.memberCount;
 let memberCountChannel = myGuild.channels.get("650447242381099018");
 memberCountChannel.setName("Количество челов:"+ memberCount)
